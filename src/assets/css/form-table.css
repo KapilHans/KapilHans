@@ -1,0 +1,313 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: -0.5px !important;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1660px;
+}
+
+input.form-control {
+    border-bottom: 2.5px solid #30363D !important;
+    direction: rtl;
+    height: 59px;
+    background: #eee !important;
+    border-radius: 0px;
+    font-size: 26px;
+    width: 100%;
+    font-weight: 500;
+    padding: 10px 20px !important;
+}
+
+input.form-control::placeholder {
+    color: #30363D;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+input:focus {
+    background: #eee !important;
+}
+
+input.value-exists {
+    background: #eee !important;
+    border-bottom: 2.5px solid #30363D !important;
+}
+
+
+label.active {
+    top: -25px !important;
+    direction: rtl;
+}
+
+
+.form-check {
+    direction: rtl;
+}
+
+button.btn.btn-primary {
+    background: #71A8FE !important;
+    height: 63px;
+    width: 100%;
+    border-radius: 0px;
+    border: 3px solid #fff;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 15%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+button.btn.btn-secondary {
+    background: #DDE2E6 !important;
+    height: 63px;
+    width: 100%;
+    border-radius: 0px;
+    border: 3px solid #fff;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 15%);
+    font-size: 1.5rem;
+    color: #30363D;
+    font-weight: 500;
+    padding: 10px;
+}
+
+button.btn.btn-dark {
+    background: #6D7A8A !important;
+    height: 63px;
+    width: 100%;
+    border-radius: 0px;
+    border: 3px solid #fff;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 15%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    direction: rtl;
+    text-align: right;
+    color: #6D7A8A;
+    font-size: 24px;
+    font-weight: 500 !important;
+}
+
+.md-form label {
+    right: 20px;
+    direction: rtl;
+    text-align: right;
+    color: #6D7A8A;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    font-family: 'Assistant' !important;
+}
+
+.md-form {
+    margin: 0px;
+}
+
+.md-form label.active {
+    -webkit-transform: translateY(-14px) scale(1);
+    transform: translateY(-14px) scale(1);
+}
+
+
+.mt_auto {
+    margin-top: 36px;
+}
+
+
+.custom-control-label::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0px !important;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.custom-control-label::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0px !important;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+button.btn.btn-light {
+    font-size: 26px;
+    background: #fff0 !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.btn-danger.dropdown-toggle {
+    background-color: #ffffff00 !important;
+}
+
+.btn-danger:not([disabled]):not(.disabled):active, .btn-danger:not([disabled]):not(.disabled).active, .show>.btn-danger.dropdown-toggle {
+    background-color: #ffffff00 !important;
+}
+.btn-danger.dropdown-toggle:hover, .btn-danger.dropdown-toggle:focus {
+    background-color: #ffffff00 !important;
+}
+
+
+.modal-footer>* {
+    margin: 0rem;
+}
+
+/* Global Css End */
+
+/* Form Table css */
+
+.cst_btns button:last-child {
+    background: #5680C4!important;
+}
+
+section.above_table .hd_tex h1 {
+    text-align: right;
+    color: #30363D;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+section.above_table .field_header h1 {
+    color: #5680C4;
+    text-align: right;
+    font-size: 35px;
+    letter-spacing: -0.5px;
+    margin-bottom: 0px;
+    font-weight: 500 !important;
+}
+
+section.table_sec .text-right h1 {
+    font-weight: 500 !important;
+}
+
+section.above_table .row.flex-row-reverse.width_auto {
+    margin-left: 200px;
+}
+
+section.above_table .cst_btns button {
+    width: 45% !important;
+    margin: auto;
+    margin-top: 0px;
+}
+
+section.table_sec th {
+    font-size: 26px;
+    letter-spacing: -0.5px;
+    line-height: 34px;
+    color: #30363D;
+    text-align: right;
+    vertical-align: baseline;
+    font-weight: 500;
+}
+
+section.table_sec td {
+    font-size: 26px;
+    letter-spacing: -0.5px;
+    line-height: 34px;
+    color: #30363D;
+    text-align: right;
+    padding: 20px 15px;
+    font-weight: 500;
+}
+
+section.table_sec td i.fa.fa-ellipsis-v {
+    color: #71A8FE;
+}
+
+section.table_sec table.table {
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 6%);
+}
+
+section.table_sec th:nth-child(8) {
+    width: 8%;
+}
+
+section.table_sec th:nth-child(7) {
+    width: 30%;
+}
+
+section.table_sec th:nth-child(6) {
+    width: 9%;
+}
+
+section.table_sec th:nth-child(2) {
+    width: 9%;
+}
+
+section.table_sec td button {
+    background: transparent !important;
+    border: none;
+    padding: 0px !important;
+    font-size: 25px !important;
+    display: flex;
+    justify-content: center;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+section.table_sec .dropdown-menu.dropdown-menu-right.show {
+    background: #EEEEEE;
+    justify-content: center;
+    height: 221px;
+    width: 200px;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 3px rgb(0 0 0 / 10%);
+}
+
+section.table_sec .dropdown-menu.dropdown-menu-right.show a.dropdown-item {
+    height: 55px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+section.table_sec .dropdown-menu.dropdown-menu-right.show a.dropdown-item span {
+    font-size: 24px;
+}
+
+section.table_sec table.table tr:hover {
+    background: #71a7fe34;
+}
+
+section.table_sec button.btn.btn-primary span {
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    border: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+}
+
+/* Footer Css */
+
+section.copyright_sec {
+    background: #DDE2E6;
+    padding: 10px 0px;
+}
+
+section.copyright_sec h1 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 1700px) and (min-width: 769px){
+
+    button.btn.btn-primary {
+        font-size: 1rem;
+    }
+
+} 
